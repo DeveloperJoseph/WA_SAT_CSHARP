@@ -1,0 +1,19 @@
+﻿.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+}
+
+.bg-JStyle1 {
+    background-color: #550b8f !important;
+}
+
+.bg-JStyle2 {
+    background-color: #f87e15 !important;
+}
+
+.bg-JStyle3 {
+    background-color: #0b0fd3 !important;
+}
+
