@@ -16,7 +16,10 @@ namespace WA_SAT_CSHARP.VISTA
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            ListarDocumentos();
+            if (IsPostBack == false)
+            {
+                ListarDocumentos();
+            }
         }
 
 
@@ -62,6 +65,7 @@ namespace WA_SAT_CSHARP.VISTA
             if(valida.Equals(true))
             {
                 mDocumento.IdDocumento = Convert.ToInt32(txtDocumentoID.Text);
+                objCDocumento.deleteDocumento(mDocumento);
                 mensaje = "* Documento eliminado de la base de datos.";
                 LabelMensaje.Text = mensaje;
                 ListarDocumentos();

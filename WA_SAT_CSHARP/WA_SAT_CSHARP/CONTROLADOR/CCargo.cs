@@ -10,9 +10,10 @@ namespace WA_SAT_CSHARP.CONTROLADOR
 {
     public class CCargo
     {
-
+           //Establecer conexion
         SqlConnection cnn = new SqlConnection("Data Source=(local);DataBase=DBSatPraco;user='sa';pwd='whoami'");
-        DataTable dT = new DataTable();
+        DataTable dT = new DataTable();//DataTable para datos
+
 
         public DataTable listarCargo()
         {
@@ -23,6 +24,7 @@ namespace WA_SAT_CSHARP.CONTROLADOR
             }
            return dT;
         }
+
 
         public void addCargo(Model_tbl_Cargo objCargo)
         {

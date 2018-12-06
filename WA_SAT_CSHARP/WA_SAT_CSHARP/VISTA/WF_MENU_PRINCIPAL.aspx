@@ -37,7 +37,7 @@
                     </div>
                     <div class="card-body">
                         <div class="col-form-label">
-                            <a>REGISTRAR MI INGRESO</a>
+                            <a href="WF_REGISTRAR_ENTRADA.aspx">REGISTRAR MI INGRESO</a>
                         </div>
                         <div class="col-form-label">
                             <a>LISTA DE MIS INGRESOS</a>
@@ -59,7 +59,7 @@
                     </div>
                     <div class="card-body">
                         <div class="col-form-label">
-                            <a>REGISTRAR MI SALIDA</a>
+                            <a href="WF_REGISTRO_SALIDA.aspx">REGISTRAR MI SALIDA</a>
                         </div>
                         <div class="col-form-label">
                             <a>LISTA DE MIS SALIDAS</a>

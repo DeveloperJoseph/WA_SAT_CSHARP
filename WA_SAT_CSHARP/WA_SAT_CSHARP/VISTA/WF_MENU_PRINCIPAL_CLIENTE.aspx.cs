@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace WA_SAT_CSHARP.VISTA
 {
-    public partial class WF_REGISTRO_ENTRADA : System.Web.UI.Page
+    public partial class WF_MENU_PRINCIPAL_CLIENTE : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

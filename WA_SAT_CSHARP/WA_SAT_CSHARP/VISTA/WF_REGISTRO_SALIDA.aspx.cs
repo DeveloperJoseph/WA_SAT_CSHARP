@@ -8,34 +8,32 @@ using WA_SAT_CSHARP.MODELO;
 
 namespace WA_SAT_CSHARP.VISTA
 {
-    public partial class WF_REGISTRAR_ENTRADA : System.Web.UI.Page
+    public partial class WF_REGISTRO_ENTRADA : System.Web.UI.Page
     {
         CONTROLADOR.CIngresoAndSalida objCIngresoAndSalida = new CONTROLADOR.CIngresoAndSalida();
-        MRegistroIngreso objRI = new MRegistroIngreso();
+        MRegistroSalida mRS = new MRegistroSalida();
         String mensaje;
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            if(IsPostBack==false)
-            {
-               
-            }
+
         }
+
 
         protected void ButtonRegister_Click(object sender, EventArgs e)
         {
-            Boolean success = validarCamposRegistrarEntrada();
-
-            if (success.Equals(true))
+            Boolean success = validarCamposRegistrarSalida();
+            if(success.Equals(true))
             {
-                objRI.ID_USUARIO = Convert.ToInt32(txtUsuarioID.Text);
-                objCIngresoAndSalida.RegistroIngreso(objRI);
-                mensaje = "Registro de ingreso satisfactorio.";
+                mRS.ID_USUARIO = Convert.ToInt32(txtUsuarioID.Text);
+                objCIngresoAndSalida.RegistroSalida(mRS);
+                mensaje = "Registro de salida satisfactorio.";
                 LabelMensaje.Text = mensaje;
             }
         }
 
-        Boolean validarCamposRegistrarEntrada()
+
+        Boolean validarCamposRegistrarSalida()
         {
             if (this.txtUsuarioID.Text.Equals(""))
             {
@@ -45,7 +43,5 @@ namespace WA_SAT_CSHARP.VISTA
             }
             return true;
         }
-    
-    
     }
 }

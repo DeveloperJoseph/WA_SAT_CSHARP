@@ -73,6 +73,11 @@
 
                 <br />
                 <br />
+                <asp:Label ID="LabelMensaje"  CssClass="text-danger" 
+                    runat="server" Text=""></asp:Label>
+
+                <br />
+                <br />
             </div>
         </div>
         <div class="bg-light">

@@ -7,6 +7,8 @@
  <link href="../RECURSOS/Content/Bootstrap/bootstrap.css" rel="stylesheet" />
     <script src="../RECURSOS/Scripts/Bootstrap/bootstrap.js" type="text/javascript"></script>
     <script src="../RECURSOS/Scripts/Jquery/jquery-1.12.4.js" type="text/javascript"></script>
+    <link href="../RECURSOS/Content/Bootstrap/CssJoseph.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <title>MENU PRINCIPAL - EMPLEADO</title>
         <style>
             .fondo-jS {
@@ -19,54 +21,54 @@
 </head>
 <body class="bg-dark">
     <nav class="navbar navbar-inverse bg-dark navbar-dark affix fondo-jS">
-        <a class="navbar-brand text-dark" href="WF_MENU_PRINCIPAL_EMPLEADO.aspx"><b>SISTEMA DE ASIGNACIÓN DE TAREAS - SAT</b></a>
+        <a class="navbar-brand text-dark" href="WF_MENU_PRINCIPAL_EMPLEADO.aspx"><b>SAT - INTRANET</b></a>
     </nav>
     <br />
     <br />
     <br />
     <br />
-   <div class="container">
+   <div class="container w3-animate-left">
         <div class="row">
-            <div class="col-sm-4">
+             <div class="col-sm-4">
                 <br />
                 <div class="card">
-                    <div class="jumbotron jumbotron-fluid bg-danger text-center text-white">
-                        <h2>REGISTRAR ENTRADA</h2>
+                    <div class="jumbotron jumbotron-fluid bg-JStyle1 text-center text-white">
+                        <h2>REGISTRAR INGRESO</h2>
                     </div>
                     <div class="card-body">
                         <div class="col-form-label">
-                            <a class="btn btn-danger">REGISTRAR ENTRADA</a>
+                            <a href="WF_REGISTRAR_ENTRADA.aspx">REGISTRAR MI INGRESO</a>
                         </div>
                         <div class="col-form-label">
-                            <a>UPDATE USUARIO</a>
+                            <a>LISTA DE MIS INGRESOS</a>
                         </div>
-                        <div class="col-form-label">
-                            <a>DELETE USUARIO</a>
+                          <div class="col-form-label">
+                            <a>-</a>
                         </div>
-                        <div class="col-form-label">
-                            <a>LISTA DE USUARIOS</a>
+                          <div class="col-form-label">
+                            <a>-</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+         <div class="col-sm-4">
                 <br />
                 <div class="card">
-                    <div class="jumbotron jumbotron-fluid bg-danger text-center text-white">
+                    <div class="jumbotron jumbotron-fluid bg-JStyle1 text-center text-white">
                         <h2>REGISTRAR SALIDA</h2>
                     </div>
                     <div class="card-body">
                         <div class="col-form-label">
-                            <a>REGISTRAR TAREA</a>
+                            <a href="WF_REGISTRO_SALIDA.aspx">REGISTRAR MI SALIDA</a>
                         </div>
                         <div class="col-form-label">
-                            <a>UPDATE TAREA</a>
+                            <a>LISTA DE MIS SALIDAS</a>
                         </div>
-                        <div class="col-form-label">
-                            <a>DELETE TAREA</a>
+                          <div class="col-form-label">
+                            <a>-</a>
                         </div>
-                        <div class="col-form-label">
-                            <a>LISTA DE TAREAS</a>
+                          <div class="col-form-label">
+                            <a>-</a>
                         </div>
                     </div>
                 </div>

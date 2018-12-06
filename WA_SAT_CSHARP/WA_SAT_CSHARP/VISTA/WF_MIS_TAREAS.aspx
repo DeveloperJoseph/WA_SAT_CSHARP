@@ -39,6 +39,8 @@
                     &nbsp;
                   <asp:Button ID="ButtonSearchTareas" runat="server" CssClass="btn btn-primary"
                       Text="Ver mis tareas" OnClick="ButtonSearchTareas_Click" />
+                    <br />
+                    <asp:Label ID="LabelMensaje" runat="server" Text="" CssClass="text-danger"></asp:Label>
                 </div>
             </div>
         </div>

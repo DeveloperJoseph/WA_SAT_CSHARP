@@ -44,8 +44,6 @@ namespace WA_SAT_CSHARP.CONTROLADOR
         }
 
 
-
-
         public Boolean LoginSystem(int ID_CARGO, string EMAIL, string PWD)
         {
             using (SqlCommand cmd = new SqlCommand("LoginSystem", cnn))

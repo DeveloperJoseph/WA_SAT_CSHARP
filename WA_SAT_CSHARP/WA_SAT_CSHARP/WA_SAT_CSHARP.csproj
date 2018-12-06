@@ -122,11 +122,12 @@
     <Content Include="VISTA\WF_MANTENIMIENTO_TAREAS.aspx" />
     <Content Include="VISTA\WF_MANTENIMIENTO_USUARIO.aspx" />
     <Content Include="VISTA\WF_MENU_PRINCIPAL.aspx" />
+    <Content Include="VISTA\WF_MENU_PRINCIPAL_CLIENTE.aspx" />
     <Content Include="VISTA\WF_MENU_PRINCIPAL_EMPLEADO.aspx" />
     <Content Include="VISTA\WF_MENU_PRINCIPAL_SUPERVISOR.aspx" />
     <Content Include="VISTA\WF_MIS_TAREAS.aspx" />
     <Content Include="VISTA\WF_REGISTRAR_ENTRADA.aspx" />
-    <Content Include="VISTA\WF_REGISTRO_ENTRADA.aspx" />
+    <Content Include="VISTA\WF_REGISTRO_SALIDA.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -213,6 +214,13 @@
     <Compile Include="VISTA\WF_MENU_PRINCIPAL.aspx.designer.cs">
       <DependentUpon>WF_MENU_PRINCIPAL.aspx</DependentUpon>
     </Compile>
+    <Compile Include="VISTA\WF_MENU_PRINCIPAL_CLIENTE.aspx.cs">
+      <DependentUpon>WF_MENU_PRINCIPAL_CLIENTE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VISTA\WF_MENU_PRINCIPAL_CLIENTE.aspx.designer.cs">
+      <DependentUpon>WF_MENU_PRINCIPAL_CLIENTE.aspx</DependentUpon>
+    </Compile>
     <Compile Include="VISTA\WF_MENU_PRINCIPAL_EMPLEADO.aspx.cs">
       <DependentUpon>WF_MENU_PRINCIPAL_EMPLEADO.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -241,12 +249,12 @@
     <Compile Include="VISTA\WF_REGISTRAR_ENTRADA.aspx.designer.cs">
       <DependentUpon>WF_REGISTRAR_ENTRADA.aspx</DependentUpon>
     </Compile>
-    <Compile Include="VISTA\WF_REGISTRO_ENTRADA.aspx.cs">
-      <DependentUpon>WF_REGISTRO_ENTRADA.aspx</DependentUpon>
+    <Compile Include="VISTA\WF_REGISTRO_SALIDA.aspx.cs">
+      <DependentUpon>WF_REGISTRO_SALIDA.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="VISTA\WF_REGISTRO_ENTRADA.aspx.designer.cs">
-      <DependentUpon>WF_REGISTRO_ENTRADA.aspx</DependentUpon>
+    <Compile Include="VISTA\WF_REGISTRO_SALIDA.aspx.designer.cs">
+      <DependentUpon>WF_REGISTRO_SALIDA.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <PropertyGroup>

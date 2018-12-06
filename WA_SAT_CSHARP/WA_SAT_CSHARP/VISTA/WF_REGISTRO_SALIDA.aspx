@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WF_REGISTRAR_ENTRADA.aspx.cs" Inherits="WA_SAT_CSHARP.VISTA.WF_REGISTRAR_ENTRADA" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WF_REGISTRO_SALIDA.aspx.cs" Inherits="WA_SAT_CSHARP.VISTA.WF_REGISTRO_ENTRADA" %>
 
 <!DOCTYPE html>
 
@@ -17,7 +17,7 @@
         }
     </style>
 
-    <title>REGISTRO DE ENTRADA</title>
+    <title>REGISTRO DE SALIDA</title>
 </head>
 <body>
     <nav class="navbar navbar-inverse bg-dark navbar-dark affix text-white fondo-jS">
@@ -29,8 +29,8 @@
     <br />
     <br />
     <div class="container">
-        <div class="jumbotron bg-JStyle1 text-white">
-            <h1>REGISTRO DE ENTRADA</h1>
+        <div class="jumbotron bg-success text-white">
+            <h1>REGISTRO DE SALIDA</h1>
         </div>
     </div>
     <form id="form1" runat="server" class="form-control-sm">
